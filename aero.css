@@ -1,0 +1,2037 @@
+@font-face {
+    font-family: "Creepster Cyrillic-Regular";
+    /* Название должно в точности совпадать с файлом в папке */
+    src: url("font/creepster.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.screen {
+background-color: #ffffff;
+overflow: hidden;
+border: 1px solid;
+border-color: #000000;
+width: 100%;
+min-width: 1920px;
+height: 15367px;
+position: relative;
+}
+.screen .element {
+position: absolute;
+top: 8000px;
+left: calc(50.00% - 960px);
+width: 1920px;
+height: 3412px;
+object-fit: cover;
+}
+.screen .image {
+position: absolute;
+top: 51px;
+left: 0;
+width: 1920px;
+height: 2420px;
+object-fit: cover;
+}
+.screen .img {
+position: absolute;
+top: 65px;
+left: 793px;
+width: 190px;
+height: 66px;
+}
+.screen .text-wrapper {
+top: 88px;
+left: 839px;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #ffffff;
+font-size: 18px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .element-2 {
+position: absolute;
+top: 57px;
+left: 536px;
+width: 218px;
+height: 75px;
+}
+.screen .div {
+top: 89px; left: 617px;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #ffffff;
+font-size: 18px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .element-3 {
+position: absolute;
+top: 59px;
+left: 1266px;
+width: 263px;
+height: 68px;
+}
+.screen .text-wrapper-2 {
+top: 86px;
+left: 1374px;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #ffffff;
+font-size: 18px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .element-4 {
+position: absolute;
+top: 69px;
+left: 1022px;
+width: 205px;
+height: 54px;
+}
+.screen .text-wrapper-3 {
+top: 89px;
+left: 1058px;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #ffffff;
+font-size: 18px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .element-5 {
+position: absolute;
+top: 63px;
+left: 1568px;
+width: 189px;
+height: 60px;
+}
+.screen .text-wrapper-4 {
+top: 83px;
+left: 1635px;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #ffffff;
+font-size: 18px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .image-2 {
+position: absolute;
+top: 9817px;
+left: calc(50.00% - 960px);
+width: 1920px;
+height: 1093px;
+object-fit: cover;
+}
+.screen .view {
+position: absolute;
+top: 2745px;
+left: 0;
+width: 1924px;
+height: 1628px;
+}
+.screen .element-6 {
+position: absolute;
+top: 0;
+left: calc(50.00% - 962px);
+width: 1920px;
+height: 1628px;
+object-fit: cover;
+}
+.screen .element-7 {
+position: absolute; top: 754px;
+left: 896px;
+width: 961px;
+height: 814px;
+}
+.screen .element-8 {
+position: absolute;
+top: 277px;
+left: 196px;
+width: 682px;
+height: 638px;
+}
+.screen .p {
+top: 1035px;
+left: calc(50.00% + 199px);
+width: 431px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #ffffff;
+font-size: 18px;
+line-height: 29px;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .text-wrapper-5 {
+top: 554px;
+left: calc(50.00% 654px);
+width: 431px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+line-height: 29px; position: absolute;
+letter-spacing: 0;
+}
+.screen .element-9 {
+position: absolute;
+top: 874px;
+left: 325px;
+width: 602px;
+height: 460px;
+}
+.screen .element-10 {
+position: absolute;
+top: 216px;
+left: 891px;
+width: 750px;
+height: 697px;
+}
+.screen .text-wrapper-6 {
+top: -150px;
+left: calc(50.00% 276px);
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 150px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .view-2 { 
+position: absolute; 
+top: 4386px;
+left: -522px;
+width: 2848px;
+height: 2992px;
+}
+.screen .view-3 { 
+position: absolute;
+top: 4px;
+left: 0;
+width: 2834px;
+height: 2988px;
+}
+.screen .element-11 {
+position: absolute;
+top: 0;
+left: 522px;
+width: 960px;
+height: 1503px;
+}
+.screen .element-12 {
+position: absolute; top: 897px;
+left: 1731px;
+width: 711px;
+height: 1118px;
+}
+.screen .element-13 {
+position: absolute;
+top: 2240px;
+left: 522px;
+width: 661px;
+height: 748px;
+}
+.screen .element-14 {
+position: absolute;
+top: 1203px;
+left: 1169px;
+width: 626px;
+height: 993px;
+}
+.screen .element-15 {
+position: absolute;
+top: 948px;
+left: 1345px;
+width: 325px;
+height: 319px;
+}
+.screen .element-16 { position: absolute;
+top: 2126px;
+left: 1345px;
+width: 325px;
+height: 319px;
+}
+.screen .element-17 {
+position: absolute; top: 0;
+left: calc(50.00% - 366px);
+width: 862px;
+height: 882px;
+}
+.screen .element-18 {
+position: absolute;
+top: 2206px;
+left: 738px;
+width: 492px;
+height: 231px;
+}
+.screen .element-19 {
+position: absolute; top: 1354px;
+left: 1817px;
+width: 409px;
+height: 705px;
+}
+.screen .span-wrapper {
+top: 2244px;
+left: 1817px;
+position: absolute;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 18px;
+letter-spacing: 0;
+line-height: normal;
+white-space: nowrap;
+}
+.screen .span {
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 18px; 
+letter-spacing: 0;
+}
+
+.screen .element-20 { 
+position: absolute; 
+top: 2281px;
+left: 1815px;
+width: 411px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+letter-spacing: 0;
+line-height: normal;
+}
+.screen .text-wrapper-7 {
+top: 1037px;
+left: 1815px;
+position: absolute;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 18px;
+letter-spacing: 0;
+line-height: normal;
+white-space: nowrap;
+}
+.screen .element-21 {
+position: absolute;
+top: 1074px;
+left: 1815px;
+width: 411px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+letter-spacing: 0;
+line-height: normal;
+}
+.screen .element-22 {
+top: 1600px;
+left: 741px;
+position: absolute;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 18px;
+letter-spacing: 0;
+line-height: normal;
+white-space: nowrap;
+}
+
+.screen .element-23 { position: absolute;
+top: 1643px;
+left: 738px;
+width: 411px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+letter-spacing: 0;
+line-height: normal;
+}
+.screen .text-wrapper-8 {
+top: 217px;
+left: calc(50.00% - 182px);
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 150px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .group {
+position: absolute;
+top: 901px;
+left: 751px;
+width: 380px;
+height: 392px;
+background-image: url(img/19.png);
+background-size: 100% 100%;
+}
+.screen .text-wrapper-9 {
+top: 9362px;
+left: calc(50.00% - 526px);
+width: 1053px;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 150px;
+line-height: normal;
+position: absolute; letter-spacing: 0;
+}
+
+.screen .text-wrapper-10 { top: 9703px;
+left: calc(50.00% - 248px);
+width: 497px;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size:120px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .text-wrapper-11 {
+top: 10746px;
+left: calc(50.00% - 230px);
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 128px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .text-wrapper-12 {
+top: 11985px;
+left: calc(50.00% - 226px);
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 150px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .text-wrapper-13 {
+top: 477px;
+left: 120px;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 150px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .text-wrapper-14 { 
+top: 7233px;
+left: calc(50.00% - 324px);
+width: 609px;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 150px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .element-24 {
+position: absolute;
+top: 10896px;
+left: calc(50.00% 960px);
+width: 1920px;
+height: 1093px;
+object-fit: cover;
+}
+.screen .view-4 {
+position: absolute;
+top: 7173px;
+left: -61px;
+width: 2089px;
+height: 2015px;
+}
+.screen .element-25 {
+position: absolute;
+top: 0;
+left: 61px;
+width: 1920px;
+height: 1149px;
+object-fit: cover;
+}
+.screen .element-26 {
+position: absolute;
+top: 288px;
+left: 224px;
+width: 690px;
+height: 730px;
+}
+.screen .element-27 {
+position: absolute;
+top: 786px;
+left: 522px;
+width: 580px;
+height: 606px;
+}
+.screen .element-28 { 
+position: absolute;
+top: 665px;
+left: 806px;
+width: 687px;
+height: 727px;
+}
+.screen .element-29 {
+position: absolute;
+top: 820px;
+left: 1557px;
+width: 374px;
+height: 471px;
+}
+.screen .element-30 {
+position: absolute;
+top: 1029px;
+left: 170px;
+width: 302px;
+height: 207px;
+}
+.screen .element-31 {
+position: absolute;
+top: 411px;
+left: 1398px;
+width: 446px;
+height: 419px;
+}
+.screen .element-32 {
+position: absolute;
+top: 388px;
+left: 1098px;
+width: 573px;
+height: 554px;
+}
+.screen .element-33 {
+position: absolute;
+top: 1234px;
+left: 169px;
+width: 793px;
+height: 766px;
+}
+.screen .element-34 {
+position: absolute;
+top: 1179px;
+left: 1411px;
+width: 570px;
+height: 640px;
+}
+.screen .element-35 { 
+position: absolute; 
+top: 1375px;
+left: 962px;
+width: 662px;
+height: 640px;
+}
+.screen .element-36 {
+position: absolute;
+top: 1201px;
+left: 1110px;
+width: 721px;
+height: 741px;
+}
+.screen .element-37 {
+position: absolute;
+top: 1314px;
+left: 792px;
+width: 416px;
+height: 385px;
+}
+.screen .text-wrapper-15 {
+top: 1560px;
+left: 1489px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+line-height: normal;
+position: absolute; 
+letter-spacing: 0;
+}
+.screen .text-wrapper-16 {
+top: 1122px;
+left: 202px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+line-height: normal;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .text-wrapper-17 {
+top: 1494px;
+left: 952px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+line-height: normal;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .text-wrapper-18 {
+top: 1561px;
+left: 494px;
+width: 149px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+line-height: normal;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .text-wrapper-19 {
+top: 1037px;
+left: 1000px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+line-height: normal;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .text-wrapper-20 {
+top: 1066px;
+left: 1684px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+line-height: normal;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .text-wrapper-21 {
+top: 675px;
+left: 486px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+line-height: normal; 
+position: absolute; 
+letter-spacing: 0;
+}
+
+.screen .text-wrapper-22 {
+top: 616px; left: 1247px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+line-height: normal;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .element-38 {
+position: absolute;
+top: 1410px;
+left: 376px;
+width: 354px;
+height: 321px;
+}
+.screen .element-39 {
+position: absolute;
+top: 1354px;
+left: 1102px;
+width: 859px;
+height: 419px;
+}
+.screen .element-40 {
+position: absolute; 
+top: 968px;
+left: 588px;
+width: 865px;
+height: 323px;
+}
+.screen .element-41 {
+position: absolute;
+top: 1415px;
+left: 926px;
+width: 172px;
+height: 178px;
+}
+.screen .element-42 {
+position: absolute;
+top: 573px;
+left: 1190px;
+width: 517px;
+height: 132px;
+}
+.screen .element-43 {
+position: absolute;
+top: 491px;
+left: 430px;
+width: 338px;
+height: 324px;
+}
+.screen .element-44 { 
+position: absolute;
+top: 1037px;
+left: 1715px;
+width: 65px;
+height: 85px;
+}
+.screen .element-45 {
+position: absolute;
+top: 1099px;
+left: 215px;
+width: 109px;
+height: 69px;
+}
+.screen .element-48 {
+position: absolute; top: 12914px;
+left: 769px;
+width: 728px;
+height: 639px;
+}
+.screen .element-49 {
+position: absolute; top: 12357px;
+left: 821px;
+width: 808px;
+height: 709px;
+}
+.screen .group-2 {
+position: absolute;
+top: 13285px;
+left: 922px;
+width: 988px;
+height: 996px;
+}
+.screen .element-50 { 
+position: absolute;
+top: 282px;
+left: 0;
+width: 727px;
+height: 714px;
+}
+.screen .element-51 { 
+position: absolute;
+top: 0;
+left: 150px;
+width: 838px;
+height: 735px;
+}
+.screen .group-3 {
+position: absolute;
+top: 12181px;
+left: 94px;
+width: 828px;
+height: 803px;
+}
+.screen .element-52 {
+position: absolute;
+top: 0;
+left: 0;
+width: 707px;
+height: 666px;
+}
+.screen .element-53 {
+position: absolute;
+top: 137px;
+left: 121px;
+width: 707px;
+height: 666px;
+}
+.screen .element-54 {
+position: absolute; top: 12637px;
+left: 922px;
+width: 886px;
+height: 777px;
+}
+.screen .group-4 {
+position: absolute;
+top: 12888px;
+left: 89px;
+width: 933px;
+height: 1097px;
+}
+.screen .element-55 { 
+position: absolute;
+top: 347px;
+left: 0;
+width: 764px;
+height: 750px;
+}
+.screen .element-56 {
+position: absolute; 
+top: 0;
+left: 120px;
+width: 813px;
+height: 799px;
+}
+.screen .element-57 {
+position: absolute; 
+top: 12322px;
+left: 282px;
+width: 568px;
+height: 402px;
+}
+.screen .element-58 {
+position: absolute;
+top: 13628px;
+left: 1165px;
+width: 538px;
+height: 309px;
+object-fit: cover;
+}
+.screen .element-59 {
+position: absolute; 
+top: 13182px;
+left: 381px;
+width: 440px;
+height: 401px;
+}
+.screen .element-60 {
+position: absolute;
+top: 12610px;
+left: 1022px;
+width: 475px;
+height: 718px;
+}
+.screen .element-61 {
+position: absolute;
+top: 11061px;
+left: 0;
+width: 226px;
+height: 515px;
+object-fit: cover;
+}
+.screen .element-62 { 
+position: absolute;
+top: 11061px;
+left: 1262px;
+width: 658px;
+height: 515px;
+object-fit: cover;
+}
+.screen .element-63 { 
+position: absolute;
+top: 31px;
+left: 88px;
+width: 246px;
+height: 151px;
+}
+.screen .element-64 {
+position: absolute;
+top: 14123px;
+left: calc(50.00% - 960px);
+width: 1920px;
+height: 1244px;
+object-fit: cover;
+}
+
+.art-viewport {
+  position: absolute; 
+  width: 100%;      
+  height: 560px;
+  margin: 40px auto;  
+  overflow: hidden;   
+  top: 10010px;
+  border: 1px solid transparent; 
+}
+
+.art-slider {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 35px;
+  transition: transform 0.5s ease-in-out;
+  width: max-content;
+}
+
+.screen .element-65, 
+.screen .element-66, 
+.screen .element-67, 
+.screen .element-71, 
+.screen .element-72, 
+.screen .element-73,
+.slider-item {
+  position: static !important;
+  width: 550px !important;
+  height: 550px !important;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.bodiart-viewport {
+  position: absolute; 
+  width: 100%;      
+  height: 560px;
+  margin: 40px auto;  
+  overflow: hidden;   
+  top: 11061px;
+  border: 1px solid transparent; 
+}
+.bodiart-slider{
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 35px;
+  transition: transform 0.5s ease-in-out;
+  width: max-content;
+}
+.screen .element-61, 
+.screen .element-46, 
+.screen .element-47, 
+.screen .element-62, 
+.screen .element-74, 
+.screen .element-75
+{
+  position: static !important;
+  width: 550px !important;
+  height: 550px !important;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.screen .group-5 { 
+position: absolute;
+top: 10177px;
+left: 32px;
+width: 1851px;
+height: 220px;
+display: flex;
+gap: 1563px;
+}
+.screen .image-3 {
+width: 144px;
+height: 220px;
+}
+.screen .group-6 {
+position: absolute;
+top: 11209px;
+left: 32px;
+width: 1851px;
+height: 220px;
+display: flex;
+gap: 1563px;
+}
+.screen .element-68 {
+position: absolute;
+width: 5.16%;
+height: 0;
+top: 98.98%;
+left: 75.78%;
+}
+.screen .element-69 {
+position: absolute;
+top: 15179px;
+left: 162px;
+width: 303px;
+height: 122px;
+object-fit: cover;
+}
+.screen .element-70 {
+position: absolute;
+width: 5.10%;
+height: 0;
+top: 98.98%;
+left: 85.36%;
+}
+
+/* Creepster Cyrillic font classes */
+.creepster-text {
+font-family: "Creepster Cyrillic-Regular", Helvetica !important;
+}
+.creepster-heading {
+font-family: "Creepster Cyrillic-Regular", Helvetica !important;
+}
+.creepster-year {
+font-family: "Creepster Cyrillic-Regular", Helvetica !important;
+}
+
+/* Original CSS code should be injected here */
+.screen {
+background-color: #ffffff;
+overflow: hidden;
+border: 1px solid;
+border-color: #000000;
+width: 100%;
+min-width: 1920px;
+height: 15367px;
+position: relative;
+}
+.screen .element {
+position: absolute;
+top: 9520px;
+left: calc(50.00% - 960px);
+width: 1920px;
+height: 3412px;
+object-fit: cover;
+}
+.screen .image {
+position: absolute;
+top: 51px;
+left: 0;
+width: 1920px;
+height: 2420px;
+object-fit: cover;
+}
+.screen .img {
+position: absolute;
+top: 65px;
+left: 793px;
+width: 190px;
+height: 66px;
+}
+.screen .text-wrapper {
+top: 88px;
+left: 839px;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #ffffff;
+font-size: 18px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .element-2 { 
+position: absolute; 
+top: 57px;
+left: 536px;
+width: 218px;
+height: 75px;
+}
+.screen .div {
+top: 89px;
+left: 617px;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #ffffff;
+font-size: 18px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .element-3 {
+position: absolute;
+top: 59px;
+left: 1266px;
+width: 263px;
+height: 68px;
+}
+.screen .text-wrapper-2 {
+top: 86px;
+left: 1374px;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #ffffff;
+font-size: 18px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .element-4 {
+position: absolute;
+top: 69px;
+left: 1022px;
+width: 205px;
+height: 54px;
+}
+
+.screen .text-wrapper-3 {
+top: 89px;
+left: 1058px;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #ffffff;
+font-size: 18px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .element-5 {
+position: absolute; top: 63px;
+left: 1568px;
+width: 189px;
+height: 60px;
+}
+.screen .text-wrapper-4 {
+top: 83px;
+left: 1635px;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #ffffff;
+font-size: 18px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .image-2 {
+position: absolute;
+top: 9817px;
+left: calc(50.00%
+960px);
+width: 1920px;
+height: 1093px;
+object-fit: cover;
+}
+.screen .view {
+position: absolute;
+top: 2745px;
+left: 0;
+width: 1924px;
+height: 1628px;
+}
+.screen .element-6 {
+position: absolute;
+top: 0;
+left: calc(50.00% - 962px);
+width: 1920px;
+height: 1628px;
+object-fit: cover;
+}
+
+.screen .element-7 { position: absolute;
+top: 754px;
+left: 896px;
+width: 961px;
+height: 814px;
+}
+.screen .element-8 { position: absolute; top: 277px;
+left: 196px;
+width: 682px;
+height: 638px;
+}
+.screen .p {
+top: 1035px;
+left: calc(50.00% + 199px);
+width: 431px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #ffffff;
+font-size: 18px;
+line-height: 29px;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .text-wrapper-5 {
+top: 554px;
+left: calc(50.00% - 654px);
+width: 431px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+line-height: 29px;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .element-9 {
+position: absolute; top: 874px;
+left: 325px;
+width: 602px;
+height: 460px;
+}
+.screen .element-10 {
+position: absolute;
+top: 216px;
+left: 891px;
+width: 750px;
+height: 697px;
+}
+.screen .text-wrapper-6 { 
+top: -150px;
+left: calc(50.00% - 276px);
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 150px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .view-2 {
+position: absolute;
+top: 4386px;
+left: -522px;
+width: 2848px;
+height: 2992px;
+}
+.screen .view-3 {
+position: absolute;
+top: 4px;
+left: 0;
+width: 2834px;
+height: 2988px;
+}
+.screen .element-11 {
+position: absolute;
+top: 0;
+left: 522px;
+width: 960px;
+height: 1503px;
+}
+.screen .element-12 {
+position: absolute;
+top: 897px;
+left: 1731px;
+width: 711px;
+height: 1118px;
+}
+.screen .element-13 {
+position: absolute;
+top: 2240px;
+left: 522px;
+width: 661px;
+height: 748px;
+}
+.screen .element-14 {
+position: absolute;
+top: 1203px;
+left: 1169px;
+width: 626px;
+height: 993px;
+}
+.screen .element-15 { position: absolute; top: 948px;
+left: 1345px;
+width: 325px;
+height: 319px;
+}
+.screen .element-16 {
+position: absolute;
+top: 2126px;
+left: 1345px;
+width: 325px;
+height: 319px;
+}
+.screen .element-17 {
+position: absolute;
+top: 0;
+left: calc(50.00% 366px);
+width: 862px;
+height: 882px;
+}
+.screen .element-18 {
+position: absolute;
+top: 2206px;
+left: 738px;
+width: 492px;
+height: 231px;
+}
+.screen .element-19 {
+position: absolute;
+top: 1354px;
+left: 1817px;
+width: 409px;
+height: 705px;
+}
+.screen .span-wrapper {
+top: 2244px;
+left: 1817px;
+position: absolute;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 18px;
+letter-spacing: 0;
+line-height: normal;
+white-space: nowrap;
+}
+.screen .span {
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 18px;
+letter-spacing: 0;
+}
+.screen .element-20 { 
+position: absolute;
+top: 2281px;
+left: 1815px;
+width: 411px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+letter-spacing: 0;
+line-height: normal;
+}
+.screen .text-wrapper-7 {
+top: 1037px;
+left: 1815px;
+position: absolute;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 18px;
+letter-spacing: 0;
+line-height: normal;
+white-space: nowrap;
+}
+.screen .element-21 {
+position: absolute;
+top: 1074px;
+left: 1815px;
+width: 411px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+letter-spacing: 0;
+line-height: normal;
+}
+.screen .element-22 {
+top: 1600px;
+left: 741px;
+position: absolute;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 18px;
+letter-spacing: 0;
+line-height: normal;
+white-space: nowrap;
+}
+.screen .element-23 { 
+position: absolute; 
+top: 1643px;
+left: 738px;
+width: 411px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+letter-spacing: 0;
+line-height: normal;
+}
+.screen .text-wrapper-8 {
+top: 110px;
+left: calc(50.00% - 182px);
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 150px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+z-index: 5;
+}
+.screen .group {
+position: absolute;
+top: 901px;
+left: 751px;
+width: 380px;
+height: 392px;
+background-image:url(img/19.png);
+background-size: 100% 100%;
+}
+.screen .text-wrapper-9 {
+top: 9362px;
+left: calc(50.00% - 526px);
+width: 1053px;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 150px;
+line-height: normal;
+position: absolute; letter-spacing: 0;
+}
+.screen .text-wrapper-10 {
+top: 9703px;
+left: calc(50.00% - 248px);
+width: 497px;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 120px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .text-wrapper-11 {
+top: 10746px;
+left: calc(50.00% 230px);
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 128px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .text-wrapper-12 {
+top: 11985px;
+left: calc(50.00% - 226px);
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 150px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .text-wrapper-13 {
+top: 477px;
+left: 120px;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 150px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .text-wrapper-14 { top: 7233px;
+left: calc(50.00% - 324px);
+width: 609px;
+font-family: "Creepster Cyrillic-Regular", Helvetica;
+font-weight: 400;
+color: #000000;
+font-size: 150px;
+line-height: normal;
+white-space: nowrap;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .element-24 {
+position: absolute;
+top: 10896px;
+left: calc(50.00% - 960px);
+width: 1920px;
+height: 1093px;
+object-fit: cover;
+}
+.screen .view-4 {
+position: absolute;
+top: 7173px;
+left: -61px;
+width: 2089px;
+height: 2015px;
+}
+.screen .element-25 {
+position: absolute;
+top: 0;
+left: 61px;
+width: 1920px;
+height: 1149px;
+object-fit: cover;
+}
+.screen .element-26 {
+position: absolute;
+top: 288px;
+left: 224px;
+width: 690px;
+height: 730px;
+}
+.screen .element-27 {
+position: absolute;
+top: 786px;
+left: 522px;
+width: 580px;
+height: 606px;
+}
+.screen .element-28 {
+  position: absolute;
+  top: 665px;
+  left: 806px;
+  width: 687px;
+  height: 727px;
+}
+.screen .element-29 {
+  position: absolute;
+  top: 820px;
+  left: 1557px;
+  width: 374px;
+  height: 471px;
+}
+.screen .element-30 {
+  position: absolute;
+  top: 1029px;
+  left: 170px;
+  width: 302px;
+  height: 207px;
+}
+.screen .element-31 {
+  position: absolute;
+  top: 411px;
+  left: 1398px;
+  width: 446px;
+  height: 419px;
+}
+.screen .element-32 {
+  position: absolute;
+  top: 388px;
+  left: 1098px;
+  width: 573px;
+  height: 554px;
+}
+.screen .element-33 {
+  position: absolute;
+  top: 1234px;
+  left: 169px;
+  width: 793px;
+  height: 766px;
+}
+.screen .element-34 {
+  position: absolute;
+  top: 1179px;
+  left: 1411px;
+  width: 570px;
+  height: 640px;
+}
+.screen .element-35 { 
+position: absolute;
+top: 1375px;
+left: 962px;
+width: 662px;
+height: 640px;
+}
+.screen .element-36 {
+position: absolute;
+top: 1201px;
+left: 1110px;
+width: 721px;
+height: 741px;
+}
+.screen .element-37 {
+position: absolute;
+top: 1314px;
+left: 792px;
+width: 416px;
+height: 385px;
+}
+.screen .text-wrapper-15 {
+top: 1560px;
+left: 1489px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+line-height: normal;
+position: absolute; 
+letter-spacing: 0;
+}
+.screen .text-wrapper-16 {
+top: 1122px;
+left: 202px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+line-height: normal;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .text-wrapper-17 {
+top: 1494px;
+left: 952px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+line-height: normal; 
+position: absolute; 
+letter-spacing: 0;
+}
+css
+.screen .text-wrapper-18 {
+top: 1561px;
+left: 494px;
+width: 149px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+line-height: normal;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .text-wrapper-19 {
+top: 1037px;
+left: 1000px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+line-height: normal;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .text-wrapper-20 {
+top: 1066px;
+left: 1684px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+line-height: normal;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .text-wrapper-21 {
+top: 675px;
+left: 486px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+line-height: normal;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .text-wrapper-22 {
+top: 616px;
+left: 1247px;
+font-family: "TikTok Sans", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 18px;
+line-height: normal;
+position: absolute;
+letter-spacing: 0;
+}
+.screen .element-38 { position: absolute;
+top: 1410px;
+left: 376px;
+width: 354px;
+height: 321px;
+}
+.screen .element-39 {
+position: absolute;
+top: 1354px;
+left: 1102px;
+width: 859px;
+height: 419px;
+}
+.screen .element-40 {
+position: absolute;
+top: 968px;
+left: 588px;
+width: 865px;
+height: 323px;
+}
+.screen .element-41 {
+position: absolute;
+top: 1415px;
+left: 926px;
+width: 172px;
+height: 178px;
+}
+.screen .element-42 {
+position: absolute;
+top: 573px;
+left: 1190px;
+width: 517px;
+height: 132px;
+}
+.screen .element-43 {
+position: absolute;
+top: 491px;
+left: 430px;
+width: 338px;
+height: 324px;
+}
+.screen .element-44 {
+position: absolute;
+top: 1037px;
+left: 1715px;
+width: 65px;
+height: 85px;
+}
+css
+.screen .element-45 {
+  position: absolute;
+  top: 1099px;
+  left: 215px;
+  width: 109px;
+  height: 69px;
+}
+
+.screen .element-46 {
+  position: absolute;
+  top: 11061px;
+  left: 286px;
+  width: 412px;
+  height: 515px;
+  object-fit: cover;
+}
+
+.screen .element-47 {
+  position: absolute;
+  top: 11061px;
+  left: 758px;
+  width: 444px;
+  height: 516px;
+  object-fit: cover;
+}
+
+.screen .element-48 {
+  position: absolute;
+  top: 12914px;
+  left: 769px;
+  width: 728px;
+  height: 639px;
+}
+
+.screen .element-49 {
+  position: absolute;
+  top: 12357px;
+  left: 821px;
+  width: 808px;
+  height: 709px;
+}
+
+.screen .group-2 {
+  position: absolute;
+  top: 13285px;
+  left: 922px;
+  width: 988px;
+  height: 996px;
+}
+
+.screen .element-50 {
+  position: absolute;
+  top: 282px;
+  left: 0;
+  width: 727px;
+  height: 714px;
+}
+.screen .element-51 {
+position: absolute;
+top: 0;
+left: 150px;
+width: 838px;
+height: 735px;
+}
+.screen .group-3 {
+position: absolute;
+top: 12181px;
+left: 94px;
+width: 828px;
+height: 803px;
+}
+.screen .element-52 {
+position: absolute;
+top: 0;
+left: 0;
+width: 707px;
+height: 666px;
+}
+.screen .element-53 {
+position: absolute;
+top: 137px;
+left: 121px;
+width: 707px;
+height: 666px;
+}
+.screen .element-54 {
+position: absolute;
+top: 12637px;
+left: 922px;
+width: 886px;
+height: 777px;
+}
+.screen .group-4 {
+position: absolute;
+top: 12888px;
+left: 89px;
+width: 933px;
+height: 1097px;
+}
+.screen .element-55 {
+position: absolute;
+top: 347px;
+left: 0;
+width: 764px;
+height: 750px;
+}
+.screen .element-56 { position: absolute;
+top: 0;
+left: 120px;
+width: 813px;
+height: 799px;
+}
+.screen .element-57 {
+position: absolute;
+top: 12322px;
+left: 282px;
+width: 568px;
+height: 402px;
+}
+.screen .element-58 {
+position: absolute;
+top: 13628px;
+left: 1165px;
+width: 538px;
+height: 309px;
+object-fit: cover;
+}
+.screen .element-59 {
+position: absolute;
+top: 13182px;
+left: 381px;
+width: 440px;
+height: 401px;
+}
+.screen .element-60 {
+position: absolute;
+top: 12610px;
+left: 1022px;
+width: 475px;
+height: 718px;
+}
+.screen .element-62 { position: absolute;
+top: 11061px;
+left: 1262px;
+width: 658px;
+height: 515px;
+object-fit: cover;
+}
+.screen .element-63 {
+position: absolute;
+top: 31px;
+left: 88px;
+width: 246px;
+height: 151px;
+}
+.screen .element-64 {
+position: absolute;
+top: 14123px;
+left: calc(50.00% - 960px);
+width: 1920px;
+height: 1244px;
+object-fit: cover;
+}
+.screen .element-65 {
+position: absolute;
+top: 10012px;
+left: calc(50.00% - 275px);
+width: 550px;
+height: 550px;
+object-fit: cover;
+}
+.screen .element-66 {
+position: absolute;
+top: 10010px;
+left: 1319px;
+width: 601px;
+height: 552px;
+object-fit: cover;
+}
+.screen .element-67 {
+position: absolute;
+top: 10010px;
+left: 53px;
+width: 548px;
+height: 548px;
+object-fit: cover;
+}
+.screen .group-5 { 
+position: absolute;
+top: 10177px;
+left: 32px;
+width: 1851px;
+height: 220px;
+display: flex;
+gap: 1563px;
+}
+.screen .image-3 {
+width: 144px;
+height: 220px;
+}
+.screen .group-6 {
+position: absolute;
+top: 11209px;
+left: 32px;
+width: 1851px;
+height: 220px;
+display: flex;
+gap: 1563px;
+}
+.screen .element-68 {
+position: absolute; 
+width: 5.16%;
+height: auto;
+top: 98.98%;
+left: 75.78%;
+}
+.screen .element-69 {
+position: absolute;
+top: 15179px;
+left: 162px;
+width: 303px;
+height: 122px;
+object-fit: cover;
+}
+.screen .element-70 {
+position: absolute;
+width: 5.10%;
+height: auto;
+top: 98.98%;
+left: 85.36%;
+}
+
+.mechanic-container {
+  position: absolute;
+  perspective: 1200px;
+  cursor: pointer;
+}
+
+/* Общий стиль для всех клякс */
+.blot {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.1) translateZ(-500px);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Настройки для детали (появляется последней) */
+.detail-img {
+  position: absolute;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 0.6s ease 0.5s; /* Задержка 0.5 сек, чтобы кляксы успели упасть */
+  z-index: 5;
+}
+
+.mechanic-container {
+  position: absolute;
+  /* Установи координаты так, чтобы контейнер охватывал и слово, и кляксы рядом */
+  /* Либо просто top: 0; left: 0; width: 100%; если хочешь, чтобы координаты внутри были глобальными */
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* Контейнер сам не ловит мышь, ловит текст */
+  perspective: 1200px;
+}
+
+/* Текст теперь единственный, кто ловит наведение */
+.mechanic-container span, 
+.mechanic-container p {
+  position: absolute; /* Твои координаты из Figma для текста */
+  pointer-events: auto; 
+  padding: 60px 100px; /* Настрой эти значения под себя (высота и ширина зоны) */
+  margin: -60px -100px; /* Компенсируем padding, чтобы текст не прыгал */
+  z-index: 25;
+  transition: opacity 0.3s ease;
+  font-family: 'Creepster Custom', cursive !important;
+}
+
+/* Блок с кляксами */
+.static-blots {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Кляксы и Детали (используют свои element-XX координаты) */
+.mechanic-container .blot,
+.mechanic-container .detail-img {
+  position: absolute !important;
+  /* Мы НЕ трогаем top и left, они берутся из классов element-27, element-39 и т.д. */
+  opacity: 0; /* Изначально скрыты по твоему запросу (эффект появления) */
+  transform: scale(0.1) translateZ(-500px);
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.3s ease;
+  pointer-events: none;
+}
+
+/* Изначально видимые кляксы (если они должны быть до наведения) */
+/* Если хочешь, чтобы они были видны сразу, поставь opacity: 0.6 здесь */
+.mechanic-container .blot {
+  opacity: 0.6; 
+  transform: scale(1); 
+}
+
+/* --- ЭФФЕКТ ВЫСТРЕЛА НА ТЕ ЖЕ МЕСТА --- */
+
+/* При наведении на СПАН (слово), меняем состояние КЛЯКС внутри того же контейнера */
+.mechanic-container:has(span:hover) .blot {
+  opacity: 1;
+  /* transform: scale увеличит их прямо там, где они стоят */
+  animation: fire-in-place 0.4s forwards;
+}
+
+.mechanic-container:has(span:hover) .detail-img {
+  opacity: 1;
+  transform: scale(1) translateZ(0);
+  transition-delay: 0.4s;
+}
+
+.mechanic-container:has(span:hover) span {
+  opacity: 0;
+}
+
+/* Анимация увеличения без смещения центра */
+@keyframes fire-in-place {
+  0% {
+      transform: scale(0.1) translateZ(-1000px);
+      opacity: 0;
+  }
+  100% {
+      transform: scale(1.5) translateZ(0); /* Масштаб 1.5 от оригинального размера */
+      opacity: 1;
+  }
+}
+
+/* Поочередное падение (задержки) */
+.mechanic-container:has(span:hover) .blot-1 { animation-delay: 0.1s; }
+.mechanic-container:has(span:hover) .blot-2 { animation-delay: 0.25s; }
+.mechanic-container:has(span:hover) .blot-3 { animation-delay: 0.4s; }
+
+.model-wrapper {
+  position: absolute;
+  /* Установи значения так, чтобы рамка была справа от h1 Аэрограф */
+  top: 500px; 
+  left: 45%; /* Сдвигаем в правую часть экрана */
+  
+  width: 900px; 
+  height: 900px;
+  z-index: 10; /* Чтобы модель была выше всех фоновых картинок */
+  pointer-events: auto; /* Чтобы модель можно было крутить */
+}
+
+.airbrush-model {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  background-color: transparent;
+}
